@@ -3,7 +3,7 @@
 /* eslint-disable prefer-const */
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Dispositivo } from '../model/Dispositivo';
+import { Dispositivo } from '../model/dispositivo';
 import { Logs } from '../model/logRiegos';
 import { DispositivoService } from '../services/dispositivo.service';
 import { LogsService } from '../services/logRiegos.service';

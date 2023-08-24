@@ -3,7 +3,7 @@
 
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Electrovalvula } from '../model/Electrovalvula';
+import { Electrovalvula } from '../model/electrovalvula';
 import { Logs } from '../model/logRiegos';
 
 @Injectable({
