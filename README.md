@@ -5,12 +5,13 @@
 Configuracion y uso:
 
 1) Clonar el repositorio
-    git clone (colocar git)
+    Abrir una terminal y ejecutar 'git clone git@github.com:JhonatanJuno/TPFINAL_DAM.git'
 2) Front-End:
-   1) Ejecutar el comando 'ionic repair' en la carpeta ./src/frontend/
-   2) una vez regeneradas las carpetas de componentes de Angular, ejecutar'ionic serve'
+   1) Ejecutar el comando 'ionic repair' en la carpeta ./src/frontend/ (si tenemos error 
+   en ionic instalar con el comando 'npm install -g @ionic/cli').
+   2) Una vez regeneradas las carpetas de componentes de Angular, ejecutar 'ionic serve'.
 3) Back-End:
-   1) en el directorio principal de la clonacion:
+   1) En una nueva terminal, ubicarnos en el directorio principal de la clonacion:
       1) Correr docker-compose up
       2) si la base de datos no inicializara correctamente, ejecutar el script TPFinal.sql de la carpeta DB/Dumps/TPFinal.sql, esto se debe a que la aplicacion fallara si no hay lecturas de dispositivos
 
